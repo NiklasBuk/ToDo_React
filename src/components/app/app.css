@@ -1,0 +1,59 @@
+.wrapper {
+   max-width: 520px;
+   margin: 0 auto;
+}
+
+.container {
+   margin: 40px 0;
+}
+
+.search-filter {
+   display: flex;
+   justify-content: space-between;
+   /* flex-direction: column; */
+}
+
+.todo-app {
+   margin: 2rem auto 0 auto;
+   max-width: 400px;
+}
+
+.top-panel {
+   margin: 1rem 0;
+}
+
+.btn-info {
+   background: steelblue;
+}
+
+.search-panel {
+   width: auto;
+   flex: 1;
+   margin: 0 3px 0 0;
+   padding: 0 10px;
+}
+
+.list-group {
+   display: flex;
+   margin: 25px 0 0 0;
+}
+
+.button-group .btn-bdr:first-child {
+   border-radius: 5px 0 0 5px;
+}
+
+.button-group .btn-bdr:nth-child(2) {
+   border-radius: 0;
+}
+
+.button-group .btn-bdr:last-child {
+   border-radius: 0 5px 5px 0;
+}
+
+.notodo {
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   font-size: 1.4rem;
+   color: grey;
+}

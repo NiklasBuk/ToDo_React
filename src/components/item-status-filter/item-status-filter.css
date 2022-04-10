@@ -1,0 +1,29 @@
+.button-group {
+   margin: 0 0 0 25px;
+}
+
+.btn {
+   border: 1px solid #ced4da;
+}
+
+.btn:hover {
+   color: white;
+   border: 1px solid steelblue;
+}
+
+.btn-active {
+   color: white;
+   background: steelblue;
+   border: 1px solid #ced4da;
+   border-radius: 3px 0 0 3px;
+}
+
+.btn-outline-opts {
+   color: grey;
+   border: 1px solid #ced4da;
+}
+
+.btn-outline-opts:hover {
+   border: 1px solid #ced4da;
+   background: #ced4da;
+}
